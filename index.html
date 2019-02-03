@@ -4,36 +4,97 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<script src="./Bootstrap/js-1.js"></script>
-	<script src="./jquery.js"></script>
+	
+	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+	
+	Uncomment these when pushing to github/
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+
+	
+	<script src="./js/jquery.js"></script>
+	<script src="./js/js-1.js"></script>
+	<script src="./js/js-2.js"></script>
+	<link rel="stylesheet" href="./css/Bootstrap/css.css">
+
+	
 	<script src="./logic.js"></script>
-	<link rel="stylesheet" href="./Bootstrap/css.css">
 	<link rel="stylesheet" href="./style.css">
 	<title> SYCO | Semester III </title>
 </head>
 <body class="bg-dark">
-	
+
 	<div class="container mt-5">
-
-		<div class="wrapper-table-data">
-
-			<table class="table table-hover">
+		<div class="wrapper-table-data  rounded-top shadow bg-white">
+			<table class="table table-hover ">
 				<thead class="bg-light">
 					<tr>
-						<th scope="col">Enroll. No.:</th>
+						
+
+							<th scope="col"><a onclick="sortbyno()">Enroll. No.:</a></th>
+
+						
 						<th scope="col">First</th>
 						<th scope="col">Last</th>
 						<th scope="col">Handle</th>
 					</tr>
 				</thead>
-				<tbody>
-					
-				</tbody>
+				<tbody></tbody>
 			</table>
-			
 		</div>
-		
+
+		<!-- carousel -->
+		<div id="slider4" class="carousel slide mb-5" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-target="#slider4" data-slide-to="0"></li>
+				<li data-target="#slider4" data-slide-to="1"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="container p-4 mb-5 rounded shadow bg-white" style="background: #f4f4f4">
+						<div class="row">
+							<div class="col-xl-4 col-md-4 col-sm-12 col-12">
+								<img class="d-block img-fluid rounded-top rounded-bottom  shadow bg-black" src="./images/b68efbfb-af46-4406-9a5e-772cf56c8445.jpg" alt="First Slide" >
+							</div>
+							<div class="col-xl-8 col-md-8 col-sm-12 col-12">
+								<h3 class="display-4 shadow-none p-2 
+								rounded">Siddhesh Kondaskar</h3>
+								<div class="blockq mt-4" style="display : inline-block">
+									<blockquote class="blockquote">
+										<p class="mb-0">To make something special, you just have to believe it's special</p>
+										<footer class="blockquote-footer text-right	"><cite title="Source Title">Siddhesh Kondaskar</cite></footer>
+									</blockquote>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="container p-4 mb-5 rounded shadow bg-white" style="background: #f4f4f4">
+						<div class="row">
+					
+							<div class="col-xl-8 col-md-8 col-sm-12 col-12">
+								<h3 class="display-4 shadow-none p-2 rounded">Adarsh Senghani</h3>
+								<div class="blockq" style="display : inline-block">
+									<blockquote class="blockquote">
+										<p class="mb-0">Don't let someone choose you, let someone be chosen by you!</p>
+										<footer class="blockquote-footer text-right	"><cite title="Source Title">Adarsh Senghani</cite></footer>
+									</blockquote>
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-4 col-sm-12 col-12">
+								<img class="d-block img-fluid rounded-top rounded-bottom  shadow bg-black" src="./images/unnamed.jpg" alt="First Slide" >
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#slider4" class="carousel-control-prev text-dark" data-slide="prev"></a>
+
+			<a href="#slider4" class="carousel-control-next text-dark" data-slide="next"></a>
+		</div>
 	</div>
-	
 </body>
 </html>

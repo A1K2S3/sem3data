@@ -1,4 +1,6 @@
 let fail = "A.T.K.T"
+var one = 'http://43.240.64.241:81/Marksheets/EnrollmentNumber/17/';
+var two = 'Marksheet.html';
 let computer = [
 
 	SOHAIL = {
@@ -6,7 +8,8 @@ let computer = [
 		seatno : 1615080182,
 		name : "SOHAIL QURESHI",
 		atkt : 5,
-		perc : fail
+		perc : fail,
+		link : '1715080060Marksheet.html'
 		
 	},
 	RUSHIKESH = {
@@ -153,12 +156,12 @@ let computer = [
 		perc : "84.13%"
 		
 	},
-	ABHISHEK  = {
+	KIRTI  = {
 
 		seatno : 1715080085,
-		name : "KIRTI MUGE",
+		name : "KIRTI PATIL ",
 		atkt : "NONE",
-		perc : "84.13%"
+		perc : "75.60%"
 		
 	},
 	SEJAL  = {
@@ -324,9 +327,10 @@ let computer = [
 	
 ];
 var cname;
-function mainFunction(){
+function mainFunction(para1){
 
-	computer.forEach(function(element){
+	$('.table tbody').empty();
+	para1.forEach(function(element){
 		
 		if(element.atkt > 4){
 
@@ -347,7 +351,11 @@ function mainFunction(){
 		$('.table tbody').append(`
 		
 			<tr class="${cname}">
-				<th scope="row">${element.seatno}</th>
+				<th scope="row">
+					<a href="#" onClick="MyWindow=window.open('${one + element.seatno + two}','MyWindow',width=600,height=300); return false;">
+						${element.seatno}
+					</a>
+				</th>
 				<td>${element.name}</td>
 				<td>${element.atkt}</td>
 				<td>${element.perc}</td>
@@ -358,8 +366,16 @@ function mainFunction(){
 	});
 	
 }
+
+
+function sortbyno(){
+
+	let sorted = computer.sort();
+	mainFunction(sorted);
+	
+}
 $('document').ready(function(){
 
-	mainFunction();
+	mainFunction(computer);
 	
 });
