@@ -2,16 +2,6 @@ let fail = "A.T.K.T"
 var one = 'http://43.240.64.241:81/Marksheets/EnrollmentNumber/17/';
 var two = 'Marksheet.html';
 let computer = [
-
-	SOHAIL = {
-
-		seatno : 1615080182,
-		name : "SOHAIL QURESHI",
-		atkt : 5,
-		perc : fail,
-		link : '1715080060Marksheet.html'
-		
-	},
 	RUSHIKESH = {
 
 		seatno : 1715080059,
@@ -326,10 +316,25 @@ let computer = [
 	},
 	
 ];
-var cname;
+var cname; 
 function mainFunction(para1){
+	debugger;
+		$('.table tbody').empty();
+	$('.table tbody').append(`
+		
+		
+	<tr class="table-danger" onClick="MyWindow=window.open('http://43.240.64.241:81/Marksheets/EnrollmentNumber/16/1615080182Marksheet.html','MyWindow',width=600,height=300); return false;">
+		<th scope="row">
+			1615080182
+		</th>
+		<td>SOHAIL QURESHI</td>
+		<td>5</td>
+		<td>A.T.K.T</td>
+		</tr>
 
-	$('.table tbody').empty();
+
+`);
+
 	para1.forEach(function(element){
 		
 		if(element.atkt > 4){
@@ -350,16 +355,16 @@ function mainFunction(para1){
 		
 		$('.table tbody').append(`
 		
-			<tr class="${cname}">
-				<th scope="row">
-					<a href="#" onClick="MyWindow=window.open('${one + element.seatno + two}','MyWindow',width=600,height=300); return false;">
-						${element.seatno}
-					</a>
-				</th>
-				<td>${element.name}</td>
-				<td>${element.atkt}</td>
-				<td>${element.perc}</td>
-			</tr>
+		
+				<tr class="${cname}" onClick="MyWindow=window.open('./Results1/${element.seatno}Marksheet.html','MyWindow',width=600,height=300); return false;">
+					<th scope="row">
+							${element.seatno}
+					</th>
+					<td>${element.name}</td>
+					<td>${element.atkt}</td>
+					<td>${element.perc}</td>
+					</tr>
+			
 		
 		`);
 		
