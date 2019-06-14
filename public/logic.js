@@ -6,8 +6,8 @@ let computer = [
 
 		seatno : 1715080059,
 		name : "RUSHIKESH PATIL",
-		atkt : 4,
-		perc : fail
+		atkt : 6,
+		perc : 'fail'
 		
 	},
 	RAJ = {
@@ -15,15 +15,15 @@ let computer = [
 		seatno : 1715080060,
 		name : "RAJ KOTHARI",
 		atkt : "NONE",
-		perc : "72.53%"
+		perc : "73.87%"
 		
 	},
 	KAUSHIK  = {
 
 		seatno : 1715080061,
 		name : "KAUSHIK MHAPSEKAR ",
-		atkt : "2",
-		perc : fail
+		atkt : "NONE",
+		perc : '63.13%'
 		
 	},
 	ADITI  = {
@@ -31,7 +31,7 @@ let computer = [
 		seatno : 1715080062,
 		name : "ADITI PATIL  ",
 		atkt : "NONE",
-		perc : "87.07%"
+		perc : "84.27%"
 		
 	},
 	OMKAR   = {
@@ -39,23 +39,23 @@ let computer = [
 		seatno : 1715080064,
 		name : "OMKAR  PAREKH   ",
 		atkt : "NONE",
-		perc : "83.07%"
+		perc : "80.53%"
 		
 	},
 	ARUN   = {
 
 		seatno : 1715080065,
 		name : "ARUN   YADAV    ",
-		atkt : "4",
-		perc : fail
+		atkt : "6",
+		perc : 'fail'
 		
 	},
 	HARSH   = {
 
 		seatno : 1715080066,
 		name : "HARSH GHARAT  ",
-		atkt : "NONE",
-		perc : "61.86%"
+		atkt : "4",
+		perc : "fail"
 		
 	},
 	ASHLEY    = {
@@ -63,23 +63,23 @@ let computer = [
 		seatno : 1715080072,
 		name : "ASHLEY POW",
 		atkt : "NONE",
-		perc : "84.27%"
+		perc : "84.93%"
 		
 	},
 	AKHIL = {
 
 		seatno : 1715080074,
 		name : "AKHIL NASKAR ",
-		atkt : "4",
-		perc : fail
+		atkt : "8",
+		perc : 'fail'
 		
 	},
 	HARSHAY = {
 
 		seatno : 1715080076,
 		name : "HARSHAY FUTANE ",
-		atkt : "3",
-		perc : fail
+		atkt : "9",
+		perc : 'fail'
 		
 	},
 	ADARSH = {
@@ -87,7 +87,7 @@ let computer = [
 		seatno : 1715080077,
 		name : "ADARSH SENGHANI ",
 		atkt : "NONE",
-		perc : "76.93%"
+		perc : "75.60%"
 		
 	},
 	SHUBHAM = {
@@ -95,15 +95,15 @@ let computer = [
 		seatno : 1715080078,
 		name : "SHUBHAM BIRJE",
 		atkt : "NONE",
-		perc : "68.80%"
+		perc : "74.00%"
 		
 	},
 	YASHAR = {
 
 		seatno : 1715080079,
 		name : "YASHAR SHAIKH",
-		atkt : "2",
-		perc : fail
+		atkt : "NONE",
+		perc : '71.47%'
 		
 	},
 	VAISHNAVI = {
@@ -135,7 +135,7 @@ let computer = [
 		seatno : 1715080083,
 		name : "RUGVED PATIL",
 		atkt : "5",
-		perc : fail
+		perc : 'fail'
 		
 	},
 	ABHISHEK  = {
@@ -159,15 +159,15 @@ let computer = [
 		seatno : 1715080086,
 		name : "SEJAL BORKAR",
 		atkt : "NONE",
-		perc : "80.93%"
+		perc : "82.80%"
 		
 	},
 	VAISHNAVI = {
 
 		seatno : 1715080087,
 		name : "VAISHNAVI BHOIR ",
-		atkt : "1",
-		perc : fail
+		atkt : "4",
+		perc : 'fail'
 		
 	},
 	SUYOG = {
@@ -175,7 +175,7 @@ let computer = [
 		seatno : 1715080090,
 		name : "SUYOG DHADWE ",
 		atkt : "NONE",
-		perc : "79.33%"
+		perc : "76.40%"
 		
 	},
 	SIDDHESH = {
@@ -183,7 +183,7 @@ let computer = [
 		seatno : 1715080092,
 		name : "SIDDHESH KONDASKAR",
 		atkt : "NONE",
-		perc : "82.40%"
+		perc : "83.73%"
 		
 	},
 	NEHA = {
@@ -191,7 +191,7 @@ let computer = [
 		seatno : 1715080093,
 		name : "NEHA SHENDE",
 		atkt : "NONE",
-		perc : "73.20%"
+		perc : "65.60%"
 		
 	},
 	JEET = {
@@ -199,23 +199,23 @@ let computer = [
 		seatno : 1715080097,
 		name : "JEET VAZE",
 		atkt : "NONE",
-		perc : "64.67%"
+		perc : "63.47%"
 		
 	},
 	VIJAYA = {
 
 		seatno : 1715080104,
 		name : "VIJAYA KHAIRNAR",
-		atkt : "5",
-		perc : fail
+		atkt : "6",
+		perc : 'fail'
 		
 	},
 	VEDANT = {
 
 		seatno : 1715080105,
 		name : "VEDANT MER",
-		atkt : "4",
-		perc : fail
+		atkt : "8",
+		perc : 'fail'
 		
 	},
 	JUILEE = {
@@ -223,23 +223,23 @@ let computer = [
 		seatno : 1715080108,
 		name : "JUILEE KINI",
 		atkt : "NONE",
-		perc : "80.80%"
+		perc : "74.27%"
 		
 	},
 	VINAY = {
 
 		seatno : 1715080109,
 		name : "VINAY MAURYA",
-		atkt : "NONE",
-		perc : "65.87%"
+		atkt : "2",
+		perc : "Fail"
 		
 	},
 	BEEMBAI = {
 
 		seatno : 1715080112,
 		name : "BEEMBAI KAVALDAR",
-		atkt : "4",
-		perc : fail
+		atkt : "8",
+		perc : 'fail'
 		
 	},
 	PRANITA = {
@@ -247,7 +247,7 @@ let computer = [
 		seatno : 1715080113,
 		name : "PRANITA AWARI",
 		atkt : "NONE",
-		perc : "72.80%"
+		perc : "70.53%"
 		
 	},
 	PRINSU = {
@@ -255,15 +255,7 @@ let computer = [
 		seatno : 1715080116,
 		name : "PRINSU TIWARI",
 		atkt : "NONE",
-		perc : "70.00%"
-		
-	},
-	VIPUL = {
-
-		seatno : 1715080117,
-		name : "VIPUL KULKARNI",
-		atkt : "5",
-		perc : fail
+		perc : "74.13%"
 		
 	},
 	ABHISHEK = {
@@ -271,7 +263,7 @@ let computer = [
 		seatno : 1715080118,
 		name : "ABHISHEK BHANDARI",
 		atkt : "NONE",
-		perc : "66.80%"
+		perc : "67.60%"
 		
 	},
 	YASH = {
@@ -279,23 +271,23 @@ let computer = [
 		seatno : 1715080119,
 		name : "YASH PUROHIT",
 		atkt : "NONE",
-		perc : "76.93%"
+		perc : "76.27%"
 		
 	},
 	ANUJ = {
 
 		seatno : 1715080120,
 		name : "ANUJ GAWDE",
-		atkt : "2",
-		perc : fail
+		atkt : "5",
+		perc : 'fail'
 		
 	},
 	HITESH = {
 
 		seatno : 1715080123,
 		name : "HITESH CHOUDHARY",
-		atkt : "4",
-		perc : fail
+		atkt : "3",
+		perc : 'fail'
 		
 	},
 	KAMLESH = {
@@ -303,15 +295,15 @@ let computer = [
 		seatno : 1715080124,
 		name : "KAMLESH PRAJAPAT",
 		atkt : "NONE",
-		perc : "76.67%"
+		perc : "78.67%"
 		
 	},
 	SHIVAM = {
 
 		seatno : 1715080399,
 		name : "SHIVAM PANDAY",
-		atkt : "3",
-		perc : fail
+		atkt : "None",
+		perc : '71.20%'
 		
 	},
 	
@@ -320,20 +312,6 @@ var cname;
 function mainFunction(para1){
 	debugger;
 		$('.table tbody').empty();
-	$('.table tbody').append(`
-		
-		
-	<tr class="table-danger" onClick="MyWindow=window.open('http://43.240.64.241:81/Marksheets/EnrollmentNumber/16/1615080182Marksheet.html','MyWindow',width=600,height=300); return false;">
-		<th scope="row">
-			1615080182
-		</th>
-		<td>SOHAIL QURESHI</td>
-		<td>5</td>
-		<td>A.T.K.T</td>
-		</tr>
-
-
-`);
 
 	para1.forEach(function(element){
 		
@@ -357,13 +335,10 @@ function mainFunction(para1){
 		
 		
 				<tr class="${cname}" onClick="MyWindow=window.open('./Results1/${element.seatno}Marksheet.html','MyWindow',width=600,height=300); return false;">
-					<th scope="row">
-							${element.seatno}
-					</th>
 					<td>${element.name}</td>
 					<td>${element.atkt}</td>
 					<td>${element.perc}</td>
-					</tr>
+				</tr>
 			
 		
 		`);
