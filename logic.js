@@ -1,5 +1,5 @@
 let fail = "A.T.K.T"
-var one = 'http://43.240.64.241:81/Marksheets/EnrollmentNumber/17/';
+var one = 'https://msbte.org.in/BS19TEDIS/MBTESOMS19ESDIS/EnrollmentNumber/17/';
 var two = 'Marksheet.html';
 let computer = [
 	RUSHIKESH = {
@@ -334,7 +334,7 @@ function mainFunction(para1){
 		$('.table tbody').append(`
 		
 		
-				<tr class="${cname}" onClick="MyWindow=window.open('./Results1/${element.seatno}Marksheet.html','MyWindow',width=600,height=300); return false;">
+				<tr class="${cname}" onClick="MyWindow=window.open('one+${element.seatno} + Marksheet.html','MyWindow',width=600,height=300); return false;">
 					<td>${element.name}</td>
 					<td>${element.atkt}</td>
 					<td>${element.perc}</td>
